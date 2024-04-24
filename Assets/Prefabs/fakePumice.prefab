@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7416764660458912387}
   - component: {fileID: 7749616929444803303}
+  - component: {fileID: 1012116247833095561}
+  - component: {fileID: 8287368076513764078}
   m_Layer: 0
   m_Name: fakePumice
   m_TagString: Untagged
@@ -429,3 +431,36 @@ MonoBehaviour:
     - EdgeIndices: 0f0000000e0000000d0000000c0000000b0000000a0000000900000008000000
       TexGenIndex: 9
     Generation: 2
+--- !u!65 &1012116247833095561
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3053188118377980501}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6086445, y: 0.3062853, z: 1.0762382}
+  m_Center: {x: -0.017788887, y: 0.39585635, z: -0.0050828457}
+--- !u!114 &8287368076513764078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3053188118377980501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62460e402fe58704e8a6d5d74ca1fd17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
