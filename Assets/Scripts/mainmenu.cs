@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetSceneByName("Level-0").name);
+        SceneManager.LoadScene(SceneManager.GetSceneByName("Mason").name);
     }
 
     public void QuitGame()
