@@ -22,7 +22,7 @@ public class CountDownTimer : MonoBehaviour
     void StartCountDownTimer()
     {
         timer.text = "Time Left: ";
-        InvokeRepeating("UpdateTimer", 0.0f, 0.01667f);
+        //InvokeRepeating("UpdateTimer", 0.0f, 0.01667f);
     }
 
     private void FixedUpdate()
