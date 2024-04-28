@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollisionTriggerForCubeAxs : MonoBehaviour
+public class CollisionTriggerForOtherDefs : MonoBehaviour
 {
     public GameObject textToDisplayForAxis; // Assiged 'text' GameObject
-    public GameObject touchingCubeForAxis; // Assiged 'secondCube' GameObject
+    
+    public GameObject touchingCubeForOther; // Assiged 'secondCube' GameObject
     public GameObject planeToDeactivate; // Assigned 'plane' GameObject
 
     private bool isTouching = false;
@@ -23,7 +24,7 @@ public class CollisionTriggerForCubeAxs : MonoBehaviour
     {
         if (other.gameObject.name == "Player") // Check for the name "Player"
         {
-            
+
             isTouching = true;
         }
     }

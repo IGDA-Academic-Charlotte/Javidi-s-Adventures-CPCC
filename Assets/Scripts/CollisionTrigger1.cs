@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro.Examples; // Add this to include the ObjectSpin script's namespace
+
 
 public class CollisionTriggerForCubeAxs : MonoBehaviour
 {
@@ -15,7 +17,12 @@ public class CollisionTriggerForCubeAxs : MonoBehaviour
         // Check for key press and if the objects are currently touching
         if (isTouching && Input.GetKeyDown(KeyCode.E))
         {
-            planeToDeactivate.SetActive(false);
+            // Activate the ObjectSpin script to start spinning the cube
+            ObjectSpin spinScript = GetComponent<ObjectSpin>(); // Get the ObjectSpin script attached to the same object
+            if (spinScript != null)
+            {
+                spinScript.enabled = true; // Activate the ObjectSpin script
+            }
         }
     }
 
@@ -23,7 +30,7 @@ public class CollisionTriggerForCubeAxs : MonoBehaviour
     {
         if (other.gameObject.name == "Player") // Check for the name "Player"
         {
-            touchingCubeForAxis.transform.Rotate(new Vector3(0, 1, 0));
+            textToDisplayForAxis.SetActive(true);
             isTouching = true;
         }
     }
