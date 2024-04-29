@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class RetryButton : MonoBehaviour
 {
     public string gameSceneName = "Mason"; // The name of the game scene
+    public Object nextSceneToLoad;
 
     public void Start()
     {
@@ -14,6 +15,7 @@ public class RetryButton : MonoBehaviour
     public void RetryGame()
     {
         // Load the game scene
-        SceneManager.LoadScene("Mason");
+        // SceneManager.LoadScene("Mason");
+        SceneManager.LoadScene(nextSceneToLoad.name);
     }
 }

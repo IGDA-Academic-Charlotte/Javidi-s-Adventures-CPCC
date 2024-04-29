@@ -3,9 +3,10 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
+    public Object firstSceneInGame;
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetSceneByName("Mason").name);
+        SceneManager.LoadScene(firstSceneInGame.name);
     }
 
     public void QuitGame()
