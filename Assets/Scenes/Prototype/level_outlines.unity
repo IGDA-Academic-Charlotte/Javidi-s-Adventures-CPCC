@@ -543,8 +543,13 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28674
     meshQueryIndex: 9
+========
+    surfaceParameter: 27404
+    meshQueryIndex: 8
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     subMeshQueryIndex: 0
     geometryHashValue: -7279926901059707114
     surfaceHashValue: -257746195169064131
@@ -6924,7 +6929,58 @@ MonoBehaviour:
       TexGenIndex: 4
     - EdgeIndices: 07000000060000000500000004000000
       TexGenIndex: 5
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     Generation: 259
+========
+    Generation: 72
+--- !u!1 &193810382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 193810383}
+  - component: {fileID: 193810384}
+  m_Layer: 0
+  m_Name: '[generated-meshes]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &193810383
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193810382}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 449873172}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &193810384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193810382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3643d4978096d4880d7edbf4f65a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Version: 1
+  owner: {fileID: 449873171}
+  helperSurfaces: []
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
 --- !u!1 &195517439
 GameObject:
   m_ObjectHideFlags: 0
@@ -7001,7 +7057,11 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28560
+========
+    surfaceParameter: 27424
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     meshQueryIndex: 2
     subMeshQueryIndex: 0
     geometryHashValue: -395851338677677499
@@ -7850,7 +7910,11 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28498
+========
+    surfaceParameter: 27316
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: -4745546758167327183
@@ -8906,7 +8970,11 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28674
+========
+    surfaceParameter: 27418
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     meshQueryIndex: 8
     subMeshQueryIndex: 0
     geometryHashValue: 4527805569828829062
@@ -9282,7 +9350,11 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28642
+========
+    surfaceParameter: 27378
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     meshQueryIndex: 8
     subMeshQueryIndex: 0
     geometryHashValue: -2260129327779543995
@@ -9507,7 +9579,11 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28570
+========
+    surfaceParameter: 27426
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     meshQueryIndex: 0
     subMeshQueryIndex: 0
     geometryHashValue: 5098219224734645743
@@ -14420,6 +14496,103 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 444116755}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &449873169
+GameObject:
+  m_ObjectHideFlags: 17
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 449873172}
+  - component: {fileID: 449873171}
+  - component: {fileID: 449873170}
+  m_Layer: 0
+  m_Name: '[default-CSGModel]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 124
+  m_IsActive: 1
+--- !u!54 &449873170
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449873169}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &449873171
+MonoBehaviour:
+  m_ObjectHideFlags: 17
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449873169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8672dcc90e16b0a489a41edf56e016f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrefabBehaviour: 0
+  PrefabSourceAlignment: 4
+  PrefabDestinationAlignment: 0
+  Version: 1.1
+  infiniteBrush: {fileID: 0}
+  Settings: 1025
+  VertexChannels: 14
+  ReceiveGI: 2
+  MeshColliderCookingOptions: 14
+  ShowGeneratedMeshes: 0
+  DefaultPhysicsMaterial: {fileID: 13400000, guid: 0c5fdfb44d6f19646a41a0720fbf751a,
+    type: 2}
+  exportType: 0
+  originType: 0
+  exportColliders: 0
+  exportPath: 
+  angleError: 1
+  areaError: 1
+  hardAngle: 60
+  packMargin: 20
+  scaleInLightmap: 1
+  autoUVMaxDistance: 0.5
+  autoUVMaxAngle: 89
+  minimumChartSize: 4
+--- !u!4 &449873172
+Transform:
+  m_ObjectHideFlags: 17
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449873169}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 193810383}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &452043479
 GameObject:
   m_ObjectHideFlags: 0
@@ -17974,8 +18147,13 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28642
     meshQueryIndex: 7
+========
+    surfaceParameter: 27418
+    meshQueryIndex: 9
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     subMeshQueryIndex: 0
     geometryHashValue: -9018348384234021872
     surfaceHashValue: 5268540004930177069
@@ -20201,7 +20379,11 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28642
+========
+    surfaceParameter: 27378
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     meshQueryIndex: 7
     subMeshQueryIndex: 0
     geometryHashValue: 5499867508940686928
@@ -20740,6 +20922,99 @@ MonoBehaviour:
     - EdgeIndices: 07000000060000000500000004000000
       TexGenIndex: 5
     Generation: 226
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
+========
+--- !u!1 &845585814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 845585815}
+  - component: {fileID: 845585816}
+  m_Layer: 5
+  m_Name: VolumeSlider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &845585815
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845585814}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.1856, y: 1.1856, z: 1.1856}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 376341654}
+  - {fileID: 2102332186}
+  - {fileID: 525827962}
+  m_Father: {fileID: 1004153393}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -121.7}
+  m_SizeDelta: {x: 160, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &845585816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845585814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 115192561}
+  m_FillRect: {fileID: 1123499296}
+  m_HandleRect: {fileID: 115192560}
+  m_Direction: 0
+  m_MinValue: 0
+  m_MaxValue: 1
+  m_WholeNumbers: 0
+  m_Value: 1
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
 --- !u!43 &881511533
 Mesh:
   m_ObjectHideFlags: 16
@@ -21360,7 +21635,11 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28498
+========
+    surfaceParameter: 27316
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     meshQueryIndex: 0
     subMeshQueryIndex: 0
     geometryHashValue: 7734779105794913311
@@ -24419,7 +24698,11 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28560
+========
+    surfaceParameter: 27424
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     meshQueryIndex: 2
     subMeshQueryIndex: 0
     geometryHashValue: 2301423839244528841
@@ -24666,6 +24949,95 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1178878421}
   m_PrefabAsset: {fileID: 0}
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
+========
+--- !u!1 &1185410228
+GameObject:
+  m_ObjectHideFlags: 16
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1185410229}
+  - component: {fileID: 1185410231}
+  - component: {fileID: 1185410230}
+  m_Layer: 0
+  m_Name: '[generated-collider-mesh]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1185410229
+Transform:
+  m_ObjectHideFlags: 16
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185410228}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 779352947}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1185410230
+MeshCollider:
+  m_ObjectHideFlags: 16
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185410228}
+  m_Material: {fileID: 13400000, guid: 0c5fdfb44d6f19646a41a0720fbf751a, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 2053064104}
+--- !u!114 &1185410231
+MonoBehaviour:
+  m_ObjectHideFlags: 16
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185410228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a92adfdc6e3524fb82e0817c421ae3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Version: 1
+  SharedMesh: {fileID: 2053064104}
+  RenderMaterial: {fileID: 0}
+  PhysicsMaterial: {fileID: 13400000, guid: 0c5fdfb44d6f19646a41a0720fbf751a, type: 2}
+  RenderSurfaceType: 4
+  MeshDescription:
+    meshQuery:
+      layers: 33554440
+      maskAndChannels: 8
+    surfaceParameter: 27424
+    meshQueryIndex: 2
+    subMeshQueryIndex: 0
+    geometryHashValue: -1169801407311679090
+    surfaceHashValue: 7846035714972740243
+    vertexCount: 299
+    indexCount: 555
+  HasGeneratedNormals: 0
+  HasUV2: 0
+  LightingHashValue: -1169801407311679090
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
 --- !u!1 &1193674615
 GameObject:
   m_ObjectHideFlags: 0
@@ -24990,8 +25362,13 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28488
     meshQueryIndex: 6
+========
+    surfaceParameter: 27378
+    meshQueryIndex: 7
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     subMeshQueryIndex: 0
     geometryHashValue: 231143604734349817
     surfaceHashValue: -8842834884766968542
@@ -25263,7 +25640,11 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28488
+========
+    surfaceParameter: 27310
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     meshQueryIndex: 7
     subMeshQueryIndex: 0
     geometryHashValue: 8675766232878561465
@@ -31526,6 +31907,95 @@ MonoBehaviour:
     - EdgeIndices: 07000000060000000500000004000000
       TexGenIndex: 5
     Generation: 10
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
+========
+--- !u!1 &1524519485
+GameObject:
+  m_ObjectHideFlags: 16
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1524519486}
+  - component: {fileID: 1524519488}
+  - component: {fileID: 1524519487}
+  m_Layer: 0
+  m_Name: '[generated-collider-mesh]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1524519486
+Transform:
+  m_ObjectHideFlags: 16
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524519485}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 390079420}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1524519487
+MeshCollider:
+  m_ObjectHideFlags: 16
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524519485}
+  m_Material: {fileID: 13400000, guid: 0c5fdfb44d6f19646a41a0720fbf751a, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 947844483}
+--- !u!114 &1524519488
+MonoBehaviour:
+  m_ObjectHideFlags: 16
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524519485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a92adfdc6e3524fb82e0817c421ae3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Version: 1
+  SharedMesh: {fileID: 947844483}
+  RenderMaterial: {fileID: 0}
+  PhysicsMaterial: {fileID: 13400000, guid: 0c5fdfb44d6f19646a41a0720fbf751a, type: 2}
+  RenderSurfaceType: 4
+  MeshDescription:
+    meshQuery:
+      layers: 33554440
+      maskAndChannels: 8
+    surfaceParameter: 27424
+    meshQueryIndex: 2
+    subMeshQueryIndex: 0
+    geometryHashValue: 4174276205421181047
+    surfaceHashValue: -3161258631551530157
+    vertexCount: 470
+    indexCount: 846
+  HasGeneratedNormals: 0
+  HasUV2: 0
+  LightingHashValue: 4174276205421181047
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
 --- !u!1001 &1537741428
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32777,7 +33247,11 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28664
+========
+    surfaceParameter: 27404
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     meshQueryIndex: 6
     subMeshQueryIndex: 0
     geometryHashValue: -6109079957955418549
@@ -35764,7 +36238,11 @@ MonoBehaviour:
     meshQuery:
       layers: 33554440
       maskAndChannels: 8
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28560
+========
+    surfaceParameter: 27424
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: -8529442485168599386
@@ -37768,8 +38246,13 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28684
     meshQueryIndex: 5
+========
+    surfaceParameter: 27310
+    meshQueryIndex: 6
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     subMeshQueryIndex: 0
     geometryHashValue: -4400157898720851267
     surfaceHashValue: -7017118425817099791
@@ -38206,7 +38689,11 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28498
+========
+    surfaceParameter: 27316
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     meshQueryIndex: 0
     subMeshQueryIndex: 0
     geometryHashValue: 3465161889863388371
@@ -38740,7 +39227,11 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28674
+========
+    surfaceParameter: 27418
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     meshQueryIndex: 9
     subMeshQueryIndex: 0
     geometryHashValue: 6443376774276303823
@@ -39700,8 +40191,13 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28664
     meshQueryIndex: 8
+========
+    surfaceParameter: 27432
+    meshQueryIndex: 5
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     subMeshQueryIndex: 0
     geometryHashValue: 7795612789739512767
     surfaceHashValue: -3361419946329244279
@@ -39875,6 +40371,240 @@ Mesh:
     offset: 0
     size: 0
     path: 
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
+========
+--- !u!1 &2027627966
+GameObject:
+  m_ObjectHideFlags: 16
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2027627967}
+  - component: {fileID: 2027627969}
+  - component: {fileID: 2027627968}
+  m_Layer: 0
+  m_Name: '[generated-collider-mesh]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2027627967
+Transform:
+  m_ObjectHideFlags: 16
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027627966}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 594604374}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &2027627968
+MeshCollider:
+  m_ObjectHideFlags: 16
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027627966}
+  m_Material: {fileID: 13400000, guid: 0c5fdfb44d6f19646a41a0720fbf751a, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 1815090431}
+--- !u!114 &2027627969
+MonoBehaviour:
+  m_ObjectHideFlags: 16
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027627966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a92adfdc6e3524fb82e0817c421ae3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Version: 1
+  SharedMesh: {fileID: 1815090431}
+  RenderMaterial: {fileID: 0}
+  PhysicsMaterial: {fileID: 13400000, guid: 0c5fdfb44d6f19646a41a0720fbf751a, type: 2}
+  RenderSurfaceType: 4
+  MeshDescription:
+    meshQuery:
+      layers: 33554440
+      maskAndChannels: 8
+    surfaceParameter: 27424
+    meshQueryIndex: 1
+    subMeshQueryIndex: 0
+    geometryHashValue: 9151626727829758576
+    surfaceHashValue: -335318952805564573
+    vertexCount: 4329
+    indexCount: 7833
+  HasGeneratedNormals: 0
+  HasUV2: 0
+  LightingHashValue: 9151626727829758576
+--- !u!1 &2031629834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2031629835}
+  - component: {fileID: 2031629838}
+  - component: {fileID: 2031629837}
+  - component: {fileID: 2031629836}
+  m_Layer: 5
+  m_Name: SettingsButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2031629835
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031629834}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.5471199, y: 2.5471199, z: 2.5471199}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 371503140}
+  m_Father: {fileID: 1005229868}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -114}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2031629836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031629834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2031629837}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1005229866}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2031629837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031629834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.6226415, g: 0.59620863, b: 0.59620863, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2031629838
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031629834}
+  m_CullTransparentMesh: 1
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
 --- !u!1 &2035128364
 GameObject:
   m_ObjectHideFlags: 0
@@ -39980,7 +40710,11 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28488
+========
+    surfaceParameter: 27310
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     meshQueryIndex: 6
     subMeshQueryIndex: 0
     geometryHashValue: 5425524429129989290
@@ -40095,7 +40829,11 @@ MonoBehaviour:
     meshQuery:
       layers: 16777223
       maskAndChannels: 234881031
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
     surfaceParameter: 28570
+========
+    surfaceParameter: 27426
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity
     meshQueryIndex: 1
     subMeshQueryIndex: 0
     geometryHashValue: 3734920082247205472
@@ -41533,5 +42271,11 @@ SceneRoots:
   - {fileID: 347607212}
   - {fileID: 1541999141}
   - {fileID: 984673437}
+<<<<<<<< HEAD:Assets/Scenes/Prototype/mason.unity
   - {fileID: 219478035}
   - {fileID: 2098455855}
+========
+  - {fileID: 1103902391}
+  - {fileID: 160541369}
+  - {fileID: 449873172}
+>>>>>>>> Hallie:Assets/Scenes/Prototype/level_outlines.unity

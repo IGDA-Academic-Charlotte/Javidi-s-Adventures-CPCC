@@ -1,6 +1,10 @@
 fileFormatVersion: 2
-guid: 27a3b485023ee384cbfe1b7a03d8c6a7
+<<<<<<<< HEAD:Assets/StarterAssets/StarterAssets_Documentation_v1.1.pdf.meta
+guid: b5f957873a5b82042967195ffffc9063
+========
+guid: 02c3cfe0b57f1e849bf2cb00b537056e
 folderAsset: yes
+>>>>>>>> Hallie:Assets/Scenes/Prototype.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
