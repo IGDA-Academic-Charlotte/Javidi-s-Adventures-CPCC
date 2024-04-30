@@ -14,6 +14,7 @@ public class Pumice : MonoBehaviour
 
     private string state = "Stationary";
     private float wobbleTime = 0f;
+    private float wobbleSpeed = 10f;
     private float sinkCountdown = 0f;
     private float sinkCountdownMax = 3f;
     private float sinkDepth = 1f;
@@ -53,7 +54,7 @@ public class Pumice : MonoBehaviour
                 }
                 break;
             case "Wobbling":
-                wobbleTime += 0.1f;
+                wobbleTime += wobbleSpeed * Time.deltaTime;
                 offsetPosition += Vector3.down * Mathf.Sin(wobbleTime) * Time.deltaTime;
                 sinkCountdown -= 1f * Time.deltaTime;
                 if(sinkCountdown <= 0f) state = "Sinking";
