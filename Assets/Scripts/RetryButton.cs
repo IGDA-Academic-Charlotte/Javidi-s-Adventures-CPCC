@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class RetryButton : MonoBehaviour
 {
-    public string gameSceneName = "Mason"; // The name of the game scene
+    public string gameSceneName = "MainGame"; // The name of the game scene
     public Object nextSceneToLoad;
 
     public void Start()

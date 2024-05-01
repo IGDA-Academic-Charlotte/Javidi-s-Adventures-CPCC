@@ -1,9 +1,9 @@
-/*
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class CollisionTrigger : MonoBehaviour
+public class LevelComplete : MonoBehaviour
 {
     public GameObject textToDisplay; // Assiged 'text' GameObject
     public GameObject objectToDeactivate; // Assigned 'plane' GameObject
@@ -21,6 +21,7 @@ public class CollisionTrigger : MonoBehaviour
         if (isTouching && Input.GetKeyDown(KeyCode.E))
         {
             objectToDeactivate.SetActive(false);
+            SceneManager.LoadScene("GameOver");
         }
     }
 
@@ -42,4 +43,3 @@ public class CollisionTrigger : MonoBehaviour
         }
     }
 }
-*/
