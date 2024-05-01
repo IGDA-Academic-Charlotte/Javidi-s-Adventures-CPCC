@@ -3,12 +3,11 @@ using System.Collections;
 
 public class ElevatorPlatform : MonoBehaviour
 {
-    public GameObject startingPositionObject; // Reference to the GameObject representing the starting position
-    public GameObject targetPositionObject; // Reference to the GameObject representing the target position
-    public float travelSpeed = 2f; // Speed at which the elevator will travel
-    public float delayBeforeMoving = 1f; // Delay before the elevator starts moving after player enters collider
-    public float delayBeforeReturning = 2f; // Delay before the elevator returns to its starting position after reaching target
-
+    public GameObject startingPositionObject; 
+    public GameObject targetPositionObject; 
+    public float travelSpeed = 2f; 
+    public float delayBeforeMoving = 1f;
+    public float delayBeforeReturning = 2f;
     private Vector3 startingPosition;
     private Vector3 targetPosition;
     private bool playerInsideCollider = false;

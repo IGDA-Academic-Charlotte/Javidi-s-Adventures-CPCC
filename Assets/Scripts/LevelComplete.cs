@@ -17,7 +17,6 @@ public class LevelComplete : MonoBehaviour
 
     private void Update()
     {
-        // Check for key press and if the objects are currently touching
         if (isTouching && Input.GetKeyDown(KeyCode.E))
         {
             objectToDeactivate.SetActive(false);
