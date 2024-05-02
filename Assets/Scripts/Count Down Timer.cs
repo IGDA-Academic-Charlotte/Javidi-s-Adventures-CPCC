@@ -38,7 +38,7 @@ public class CountDownTimer : MonoBehaviour
 
         if (time <= 0)
         {
-            //SceneManager.LoadScene(GameOverMenu);
+            SceneManager.LoadScene("GameOver");
         }
     }
     /*

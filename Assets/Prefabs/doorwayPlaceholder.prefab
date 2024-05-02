@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7461979995399176099
+--- !u!1 &828224973056528257
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7932391521929951882}
-  - component: {fileID: 6257111623136788224}
+  - component: {fileID: 7163314357784400213}
+  - component: {fileID: 7396765534409036802}
   m_Layer: 0
-  m_Name: doorFacade
+  m_Name: doorwayPlaceholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7932391521929951882
+--- !u!4 &7163314357784400213
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7461979995399176099}
+  m_GameObject: {fileID: 828224973056528257}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -1, z: 0, w: -0.00000004371139}
-  m_LocalPosition: {x: -5.49994, y: -0.50001, z: 5.99998}
+  m_LocalRotation: {x: -0.00000006276567, y: 0.7071068, z: -0.000000056443636, w: -0.7071068}
+  m_LocalPosition: {x: -17, y: 5, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6257111623136788224
+--- !u!114 &7396765534409036802
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7461979995399176099}
+  m_GameObject: {fileID: 828224973056528257}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 218a3c5228e87b54f8102630bb1bfc1d, type: 3}
@@ -114,7 +114,7 @@ MonoBehaviour:
       RenderMaterial: {fileID: 2100000, guid: d1fea67d8ffec1c46bda146df7de1839, type: 2}
       PhysicsMaterial: {fileID: 0}
       SmoothingGroup: 0
-    - Translation: {x: 0, y: 0}
+    - Translation: {x: -0.5, y: -1}
       Scale: {x: 1, y: 1}
       RotationAngle: 0
       RenderMaterial: {fileID: 2100000, guid: e8546921a2d3e684299f636deec51677, type: 2}
@@ -138,7 +138,7 @@ MonoBehaviour:
       RenderMaterial: {fileID: 2100000, guid: 9d70962f8ef303c45a2d94b856eedb3e, type: 2}
       PhysicsMaterial: {fileID: 0}
       SmoothingGroup: 0
-    TexGenFlags: 010000000100000001000000010000000100000001000000
+    TexGenFlags: 010000000100000000000000010000000100000001000000
     Materials: []
   ControlMesh:
     Vertices:
@@ -260,4 +260,4 @@ MonoBehaviour:
       TexGenIndex: 4
     - EdgeIndices: 07000000060000000500000004000000
       TexGenIndex: 5
-    Generation: 98
+    Generation: 204
