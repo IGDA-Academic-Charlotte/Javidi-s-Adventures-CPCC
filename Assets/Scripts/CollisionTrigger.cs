@@ -5,22 +5,27 @@ using UnityEngine;
 public class CollisionTrigger : MonoBehaviour
 {
     public GameObject textToDisplay; // Assiged 'text' GameObject
-    public GameObject planeToDeactivate; // Assigned 'plane' GameObject
+    public GameObject objectToDeactivate; // Assigned 'plane' GameObject
 
     private bool isTouching = false;
+
+    private void Start()
+    {
+        textToDisplay.SetActive(false);
+    }
 
     private void Update()
     {
         // Check for key press and if the objects are currently touching
         if (isTouching && Input.GetKeyDown(KeyCode.E))
         {
-            planeToDeactivate.SetActive(false);
+            objectToDeactivate.SetActive(false);
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "Player") // Check for the name "Player"
+        if (other.gameObject.tag == "Player")
         {
             textToDisplay.SetActive(true);
             isTouching = true;
@@ -29,7 +34,7 @@ public class CollisionTrigger : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.name == "Player") // Check for the name "Player"
+        if (other.gameObject.tag == "Player")
         {
             textToDisplay.SetActive(false);
             isTouching = false;
