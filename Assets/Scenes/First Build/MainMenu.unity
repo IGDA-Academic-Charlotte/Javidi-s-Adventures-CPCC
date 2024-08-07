@@ -2613,7 +2613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62614806a778b974ab6f6caa460c9298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstSceneInGame: {fileID: 102900000, guid: cddad7de040aa344892f49b75a6547bf, type: 3}
+  firstSceneInGame: {fileID: 102900000, guid: 6e3c5cede9bcf8f4d8f4b636ab0cba87, type: 3}
 --- !u!1 &2005898526
 GameObject:
   m_ObjectHideFlags: 0
