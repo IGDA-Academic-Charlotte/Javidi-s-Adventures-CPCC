@@ -1,4 +1,5 @@
-﻿ using UnityEngine;
+﻿using System;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
@@ -86,6 +87,7 @@ namespace StarterAssets
         private float _rotationVelocity;
         private float _verticalVelocity;
         private float _terminalVelocity = 53.0f;
+        private Vector3 _movingPlatformVelocity = Vector3.zero;
 
         // timeout deltatime
         private float _jumpTimeoutDelta;
@@ -161,6 +163,7 @@ namespace StarterAssets
             Move();
         }
 
+
         private void LateUpdate()
         {
             CameraRotation();
@@ -182,6 +185,20 @@ namespace StarterAssets
                 transform.position.z);
             Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers,
                 QueryTriggerInteraction.Ignore);
+            
+            RaycastHit hit;
+            
+            Vector3 raycastPosition = new Vector3(transform.position.x, transform.position.y - GroundedOffset,
+                transform.position.z);
+            if(Physics.Raycast(raycastPosition, Vector3.down * GroundedRadius, out hit))
+            {
+                if(hit.rigidbody != null)
+                {
+                    Debug.DrawRay(transform.position, Vector3.down * hit.distance, Color.yellow);
+                    _movingPlatformVelocity = hit.rigidbody.GetPointVelocity(hit.point);
+                    Debug.Log(_movingPlatformVelocity);
+                }
+            }
 
             // update animator if using character
             if (_hasAnimator)
@@ -269,7 +286,8 @@ namespace StarterAssets
 
             // move the player
             _controller.Move(targetDirection.normalized * (_speed * Time.deltaTime) +
-                             new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
+                             new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime +
+                             _movingPlatformVelocity * Time.deltaTime);
 
             // update animator if using character
             if (_hasAnimator)
@@ -375,7 +393,7 @@ namespace StarterAssets
             {
                 if (FootstepAudioClips.Length > 0)
                 {
-                    var index = Random.Range(0, FootstepAudioClips.Length);
+                    var index = UnityEngine.Random.Range(0, FootstepAudioClips.Length);
                     AudioSource.PlayClipAtPoint(FootstepAudioClips[index], transform.TransformPoint(_controller.center), FootstepAudioVolume);
                 }
             }
