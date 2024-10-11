@@ -190,15 +190,11 @@ namespace StarterAssets
             
             Vector3 raycastPosition = new Vector3(transform.position.x, transform.position.y - GroundedOffset,
                 transform.position.z);
-            if(Physics.Raycast(raycastPosition, Vector3.down * GroundedRadius, out hit))
+            if(Physics.Raycast(raycastPosition, Vector3.down * GroundedRadius, out hit) && hit.rigidbody != null)
             {
-                if(hit.rigidbody != null)
-                {
-                    Debug.DrawRay(transform.position, Vector3.down * hit.distance, Color.yellow);
-                    _movingPlatformVelocity = hit.rigidbody.GetPointVelocity(hit.point);
-                    Debug.Log(_movingPlatformVelocity);
-                }
+                _movingPlatformVelocity = hit.rigidbody.GetPointVelocity(hit.point);
             }
+            else _movingPlatformVelocity = Vector3.zero;
 
             // update animator if using character
             if (_hasAnimator)
