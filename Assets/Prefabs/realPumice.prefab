@@ -119,6 +119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62460e402fe58704e8a6d5d74ca1fd17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sinkCountdownMax: 3
+  submergedCountdownMax: 4
 --- !u!65 &7327249007356048668
 BoxCollider:
   m_ObjectHideFlags: 0

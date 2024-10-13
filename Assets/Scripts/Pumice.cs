@@ -9,10 +9,10 @@ public class Pumice : MonoBehaviour
     private string state = "Stationary";
     private float wobbleTime = 0f;
     private float sinkCountdown = 0f;
-    private float sinkCountdownMax = 3f;
+    public float sinkCountdownMax = 3f;
     private float sinkDepth = 1f;
     private float submergedCountdown = 0f;
-    private float submergedCountdownMax = 3f;
+    public float submergedCountdownMax = 3f;
     private Vector3 initialPosition;
 
     private void Start()
