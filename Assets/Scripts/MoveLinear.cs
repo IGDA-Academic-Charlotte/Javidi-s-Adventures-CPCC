@@ -4,31 +4,34 @@ using UnityEngine;
 
 public class MoveLinear : MonoBehaviour
 {
-    public float moveSpeed = 1.0f;
+    public Transform movingObject;
     public Transform goalTransform;
-    new Rigidbody rigidbody;
+    public float moveSpeed = 1.0f;
+
+    private Rigidbody movingObjectRigidBody;
     float moveSpeedMultiplier = 0.01f;
     bool moving = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody>();
+        movingObjectRigidBody = movingObject.GetComponent<Rigidbody>();
     }
 
     private void FixedUpdate()
     {
         if(moving)
         {
-            Vector3 distanceToGoal = goalTransform.position - transform.position;
+            Vector3 distanceToGoal = goalTransform.position - movingObject.position;
             Vector3 movementIncrement = distanceToGoal.normalized * moveSpeed * moveSpeedMultiplier;
+            Debug.Log(movementIncrement);
             if(distanceToGoal.magnitude >= movementIncrement.magnitude)
             {
-                rigidbody.MovePosition(transform.position + movementIncrement);
+                movingObjectRigidBody.MovePosition(movingObject.position + movementIncrement);
             }
             else
             {
-                rigidbody.MovePosition(goalTransform.position);
+                movingObjectRigidBody.MovePosition(goalTransform.position);
             }
         }
     }
