@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Official/MainMenu.unity
     guid: 1fa9fdfde37bd5746bbc1dfe423370c0
   - enabled: 1
-    path: Assets/Scenes/Prototype/mason.unity
+    path: Assets/Scenes/Prototype/playground.unity
     guid: 6e3c5cede9bcf8f4d8f4b636ab0cba87
   - enabled: 1
     path: Assets/Scenes/Official/GameOver.unity

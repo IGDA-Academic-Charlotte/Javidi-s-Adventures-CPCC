@@ -2613,7 +2613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62614806a778b974ab6f6caa460c9298, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstSceneInGame: mason
+  firstSceneInGame: playground
 --- !u!1 &2005898526
 GameObject:
   m_ObjectHideFlags: 0

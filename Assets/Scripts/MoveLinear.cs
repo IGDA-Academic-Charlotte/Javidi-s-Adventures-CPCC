@@ -24,7 +24,6 @@ public class MoveLinear : MonoBehaviour
         {
             Vector3 distanceToGoal = goalTransform.position - movingObject.position;
             Vector3 movementIncrement = distanceToGoal.normalized * moveSpeed * moveSpeedMultiplier;
-            Debug.Log(movementIncrement);
             if(distanceToGoal.magnitude >= movementIncrement.magnitude)
             {
                 movingObjectRigidBody.MovePosition(movingObject.position + movementIncrement);
