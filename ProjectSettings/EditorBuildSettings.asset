@@ -14,4 +14,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Official/GameOver.unity
     guid: 674a6e23257d8454e9e7aeca819a9286
+  - enabled: 1
+    path: Assets/Scenes/Prototype/Level 0.unity
+    guid: decd50311d8da9b4fa805f013c090cd7
+  - enabled: 1
+    path: Assets/Scenes/Prototype/Level 1.unity
+    guid: af90f75298054454595afc064a473d23
+  - enabled: 1
+    path: Assets/Scenes/Prototype/Level 2.unity
+    guid: e59c5727b6d47034aad72cc3befb0239
+  - enabled: 1
+    path: Assets/Scenes/Prototype/Gameplay.unity
+    guid: bbfdee9dcd7d13240830c05f23209b26
+  - enabled: 1
+    path: Assets/Scenes/Prototype/Level 0 Hub.unity
+    guid: a8b1762acbb99634b9ef964738f64186
+  - enabled: 1
+    path: Assets/Scenes/Prototype/Level 1 Hub.unity
+    guid: 8934b6d70a9f0df4ab5f73fb31397346
   m_configObjects: {}

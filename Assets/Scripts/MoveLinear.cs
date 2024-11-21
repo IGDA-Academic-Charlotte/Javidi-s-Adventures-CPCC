@@ -13,16 +13,20 @@ public class MoveLinear : MonoBehaviour
     private AudioSource audioSource;
     float moveSpeedMultiplier = 0.01f;
     bool moving = false;
+
     private Vector3 distanceToGoal;
     private Vector3 remainingDistance;
     private Vector3 movementIncrement;
+    private Vector3 initialPosition;
 
     // Start is called before the first frame update
     void Start()
     {
         movingObjectRigidBody = movingObject.GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
-        
+
+        initialPosition = movingObject.position;
+
         distanceToGoal = goalTransform.position - transform.position;
         remainingDistance = distanceToGoal;
         movementIncrement = distanceToGoal.normalized * moveSpeed * moveSpeedMultiplier;
@@ -47,6 +51,20 @@ public class MoveLinear : MonoBehaviour
 
     public void Activate()
     {
+        distanceToGoal = goalTransform.position - movingObject.position;
+        remainingDistance = distanceToGoal;
+        movementIncrement = distanceToGoal.normalized * moveSpeed * moveSpeedMultiplier;
+
+        moving = true;
+        if(moveSound != null) audioSource.PlayOneShot(moveSound);
+    }
+
+    public void ActivateReverse()
+    {
+        distanceToGoal = initialPosition - movingObject.position;
+        remainingDistance = distanceToGoal;
+        movementIncrement = distanceToGoal.normalized * moveSpeed * moveSpeedMultiplier;
+
         moving = true;
         if(moveSound != null) audioSource.PlayOneShot(moveSound);
     }
